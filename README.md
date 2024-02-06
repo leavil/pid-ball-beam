@@ -1,31 +1,23 @@
-# Control PID para Bola en Viga
+# PID Control for Ball on Beam
 
-Este repositorio contiene el código fuente y recursos relacionados con la implementación de un controlador PID para el sistema de una bola sobre una viga. El controlador PID (Proporcional, Integral, Derivativo) se utiliza para lograr un seguimiento preciso y estable del sistema en distintas condiciones.
+This repository contains the source code and related resources for implementing a PID controller for a ball on a beam system. The PID controller (Proportional, Integral, Derivative) is used to achieve precise and stable tracking of the system under various conditions.
 
-## Características Principales:
+## Key Features:
 
-- Implementación del algoritmo PID para el control de posición.
-- Adaptable a diversas situaciones y escenarios de la bola sobre la viga.
-- Documentación detallada y comentarios en el código para facilitar la comprensión y extensión.
-- Ejemplos y simulaciones que ilustran el comportamiento del sistema bajo diferentes configuraciones.
+- Implementation of the PID algorithm for position control.
+- Adaptable to various situations and scenarios of the ball on the beam.
+- Detailed documentation and code comments to facilitate understanding and extension.
+- Examples and simulations illustrating the system behavior under different configurations.
 
+## Additional Study PDF Information:
 
-## Información Adicional del Estudio PDF:
+- The PDF presents a study on the design of a position servomechanism to control the position of a ball on a beam by controlling the angle formed by the beam with the horizontal plane.
+- A block diagram of the position servomechanism is provided, including the relationship between the angular position of the motor output shaft and the input voltage to the motor.
+- It is demonstrated that the system is unstable when using a proportional-integral action regulator, using stability criteria and Python simulations.
+- The use of a proportional position sensor at one end of the beam is described, which relates voltage to the ball's position.
+- It is justified that using a proportional-derivative action regulator ("PD regulator") can stabilize the system, and stability criteria are applied to determine the values of Kp and Kd that make the system stable.
+- The authors of this project are Arnau González Almirall and Miriam de Juan Borrás, students at the Polytechnic University of Catalonia.
 
-- El PDF presenta un estudio sobre el diseño de un servomecanismo de posición para controlar la posición de una bola sobre una viga a partir del control del ángulo que forma la viga con el plano horizontal.
+## Contributions:
 
-- Se proporciona un diagrama de bloques del servomecanismo de posición, que incluye la relación entre la posición angular del eje de salida del motor y la tensión de entrada al motor.
-
-- Se demuestra que el sistema es inestable al emplear un regulador de acción proporcional-integral, utilizando el criterio de estabilidad y simulaciones en python.
-
-- Se describe el uso de un sensor de posición proporcional en un extremo de la viga, el cual relaciona la tensión con la posición de la bola.
-
-- Se justifica que empleando un regulador de acción proporcional-derivativa ("regulador PD") se puede estabilizar el sistema, y se aplican criterios de estabilidad para determinar los valores de Kp y Kd que hacen que el sistema sea estable.
-
-- Los autores de este proyecto son Arnau González Almirall y Miriam de Juan Borrás, estudiantes de la Universidad Politécnica de Cataluña.
-
-
-## Contribuciones:
-
-¡Contribuciones y sugerencias son bienvenidas! Si encuentras mejoras, problemas o tienes nuevas ideas, no dudes en abrir un problema o enviar un pull request.
-
+Contributions and suggestions are welcome! If you find improvements, issues, or have new ideas, feel free to open an issue or submit a pull request.
